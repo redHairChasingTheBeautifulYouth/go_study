@@ -23,4 +23,5 @@ func main() {
 	}
 	//map是引用类型
 	delete(youMap, "s")
+
 }
