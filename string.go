@@ -18,3 +18,9 @@ func printBytes(s string) {
 		fmt.Printf("%x ", s[i])
 	}
 }
+
+func printBytes1(s string) {
+	for index, s := range s {
+		fmt.Printf("%c starts at byte %d\n", s, index)
+	}
+}
